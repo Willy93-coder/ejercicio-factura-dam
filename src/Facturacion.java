@@ -1,5 +1,7 @@
-public class Main {
+public class Facturacion {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Factura factura1 = new Factura("21A", 300);
+        factura1.calcularFactura(21);
+        System.out.println(factura1);
     }
 }
